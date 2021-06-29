@@ -22,7 +22,7 @@ int main() {
     for(int i=0;i<n;i++){
         getline(cin,s);
         int boolean=0;
-        stack <int> myStack;
+        stack <int> myStack;//
         for(int j=0;j<s.size();j++){
             if(s.at(j)=='[' || s.at(j)=='{' || s.at(j)=='<' || s.at(j)=='('){
                 myStack.push(s.at(j));
